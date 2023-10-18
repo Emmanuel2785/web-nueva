@@ -105,9 +105,6 @@ export default function CONDICIONES() {
             
             </div> 
             
-
-
-
             <Footer />
         </>
 
