@@ -91,7 +91,7 @@ export function NavMain() {
             <p>SOCIEDAD</p>
           </li>
           <li>
-            <Link href="poblacion/condicionesvida">Condiciones de vida</Link>
+            <Link href="sociedad/condicionesvida">Condiciones de vida</Link>
           </li>
           <li>
             <Link href="#">Salud</Link>
