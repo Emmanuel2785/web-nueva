@@ -1,0 +1,77 @@
+:root {
+    --light-blue: #13afc5;
+    --black: #030305;
+    --petroleum: #0c373e;
+    --gray: #373735;
+    --light-gray: #f6f6f6;
+    --mid-gray: #5c6a6b;
+    --md-gray:#e0e0e0;
+    --sm: 10px;
+    --mid:16px;
+    --md:14px;
+    --lg:20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+.title {
+    background-color: var(--gray);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: -15px;
+}
+.title ul {
+    padding-left: 115px;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+}
+.contenedor {
+    margin: 0 0 20px 0;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.card-container {
+    background-color: white;
+}
+.card-container p {
+    display: flex;
+    flex-direction: row-reverse;
+    color: var(--light-blue);
+    padding: 10px 13px;
+    margin-left: 160px;
+    font-weight: bold;
+}
+.card-container img {
+    height: 160px;
+    width: 110px;
+    margin: 0 30px 50px;
+    box-shadow: 5px 5px 10px gray;
+}
+.mas-ediciones {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: var(--sm); 
+}
+.mas-ediciones a {
+    color: var(--mid-gray);
+    text-decoration: none;
+    margin-right: 15px;
+}
+.mas-ediciones a:hover {
+    text-decoration: underline;
+}
+main {
+    margin: 30px 150px;
+    display: flex;
+    justify-content: space-around;
+}

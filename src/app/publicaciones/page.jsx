@@ -1,23 +1,74 @@
 import { NavMain } from "../components/NavMain";
 import { Footer } from "../components/Footer";
 
-export default function Operativos() {
+export default function PUBLICACIONES() {
     return (
         <>  
         
 
-        <NavMain/>
+            <NavMain/>
     
-        <p>
-            ESTAS SON LAS PUBLICACIONES
-        </p>
-        <br />
-        <br />
-        <br />
-        <br />
-        
+            <div class="title">
+                <ul>
+                <li>PUBLICACIONES</li>
+                </ul>
+            </div>
+            <main>
+                <div>
+                    <div class="contenedor">
+                        <div class="card-container">
+                            <p>Revista</p>
+                            <div class="card">
+                                <img src="/images/img-revista.png" alt=""></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mas-ediciones">
+                        <a href="#">+ ediciones anteriores</a>
+                    </div>
+                </div>
 
-        <Footer /> 
+                <div>
+                    <div class="contenedor">
+                        <div class="card-container">
+                            <p>Anuarios</p>
+                            <div class="card">
+                                <img src="/../images/img-anuarios.png" alt=""></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mas-ediciones">
+                        <a href="#">+ ediciones anteriores</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="contenedor">
+                        <div class="card-container">
+                            <p>Censos</p>
+                            <div class="card">
+                                <img src="/images/img-censos.png" alt=""></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mas-ediciones">
+                        <a href="#">+ ediciones anteriores</a>
+                    </div>
+                </div>
+    
+        
+            </main>
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+
+
+            <Footer /> 
          </>
     )
 }
