@@ -2,7 +2,7 @@ import { NavMain } from "../../components/NavMain";
 import { Footer } from "../../components/Footer";
 
 
-export default function Comercio() {
+export default function Agricultura() {
     return (
         <>  
             <NavMain />
@@ -10,7 +10,7 @@ export default function Comercio() {
             
         
             <p>
-                COMERCIO
+                AGRICULTURA
             </p>
             <br />
             <br />

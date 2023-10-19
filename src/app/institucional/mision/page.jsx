@@ -1,8 +1,8 @@
-import { NavMain } from "../components/NavMain";
-import { Footer } from "../components/Footer";
+import { NavMain } from "../../components/NavMain";
+import { Footer } from "../../components/Footer";
 import Link from "next/link";
 
-export default function Institucional() {
+export default function Mision() {
   return (
     <>
       <NavMain />
@@ -10,10 +10,10 @@ export default function Institucional() {
       <div className="title-institucional">
         <h1>INSTITUCIONAL</h1>
         <div className="container-botones">
-          <Link href="institucional/ley">LEY 14998</Link>
-          <Link href="institucional/autoridades">Autoridades</Link>
-          <Link href="#">Misiones y Funciones</Link>
-          <Link href="institucional/historia">HISTORIA</Link>
+          <Link href="ley">LEY 14998</Link>
+          <Link href="autoridades">Autoridades</Link>
+          <Link href="mision">Misiones y Funciones</Link>
+          <Link href="historia">HISTORIA</Link>
         </div>
       </div>
 
