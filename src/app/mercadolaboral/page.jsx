@@ -6,9 +6,25 @@ export default function Comercio() {
         <>
             <NavMain />
 
-            <p>
-                MERCADO LABORAL
-            </p>
+            <div class="barra-ruta">
+                <ul>
+                    <li>SOCIEDAD</li>
+                    <li>|</li>
+                    <li>MERCADO LABORAL</li>
+                </ul>
+            </div>
+
+            <div class="title-mercado-laboral">
+                <h1>ENCUESTA DE HOGARES Y EMPLEO PROVINCIAL</h1>
+                <div class="container-botones-mercado-laboral">
+                    <a href="#">EPH</a>
+                    <a href="#">EHE - M</a>
+                    <a href="#">EHE</a>
+                    <a href="#">INDICADOR SINTÉTICO TASAS BÁSICAS</a>
+                    <a href="#">INDICADORES DESAGREGADOS</a>
+                    <a href="#">EPH URBANO</a>
+                </div>
+            </div>
 
             <div class="main-mercado-laboral">
                 <section class="info">
