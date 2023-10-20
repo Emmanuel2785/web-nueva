@@ -12,7 +12,7 @@ export default function Institucional() {
         <div className="container-botones">
           <Link href="institucional/ley">LEY 14998</Link>
           <Link href="institucional/autoridades">Autoridades</Link>
-          <Link href="#">Misiones y Funciones</Link>
+          <Link href="institucional">Misiones y Funciones</Link>
           <Link href="institucional/historia">HISTORIA</Link>
         </div>
       </div>

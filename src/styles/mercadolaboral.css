@@ -1,0 +1,140 @@
+:root {
+    --light-blue: #13afc5;
+    --black: #030305;
+    --petroleum: #0c373e;
+    --gray: #373735;
+    --light-gray: #f6f6f6;
+    --mid-gray: #5c6a6b;
+    --md-gray:#e0e0e0;
+    --sm: 10px;
+    --mid:16px;
+    --md:14px;
+    --lg:20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+.title-mision {
+    display: flex;
+    place-items: center;
+    background-color: var(--light-blue);
+    font-size: var(--md);
+    margin: 10px 0;
+    color: white;
+    height: 30px;
+    padding-left: 115px;
+}
+  /*SECUNDARIA M LABORAL*/
+  
+  .title-mercado-laboral {
+    margin: 0;
+    height: 200px;
+    background-color: var(--mid-gray);
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "a b c";
+  }
+  .title-mercado-laboral h1 {
+    padding-left: 120px;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-botones-mercado-laboral {
+    text-align: center;
+    width: 86%;
+    padding: 35px;
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "a b c";
+  }
+  
+  .container-botones-mercado-laboral a {
+   font-size: var(--md);
+   width: 100%;
+   height: 60px;
+   background-color: var(--light-blue);
+   color: white;
+   text-decoration: none;
+   display: grid;
+   justify-items: center;
+   align-items: center; 
+  }
+  
+  .info {
+    margin: 20px 125px;
+  }
+  
+  .main-mercado-laboral .card-a {
+    padding: 5px 115px;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+  }
+  .main-mercado-laboral .card-a input:hover {
+    text-decoration: underline;
+  }
+  
+  .main-mercado-laboral  .boton-secundario {
+    margin: 5px;
+    border: 0;
+    background-color: inherit;
+  }
+  .main-mercado-laboral .container-card-b:hover {
+    background-color: var(--md-gray);
+  }
+  .main-mercado-laboral .card-b .container-card-b {
+    margin-right: 5px;
+    padding: 5px 115px;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+  }
+  .main-mercado-laboral .card-b img {
+    height: 20px;
+  }
+  .img-tableau {
+    display: flex;
+    justify-content: center;
+  }
+  .img-tableau img {
+    margin: 20px;
+    height: 900px;
+  }
+  .main-mercado-laboral .card-b input:hover {
+    text-decoration: underline;
+  }
+  .main-mercado-laboral .subtitle {
+    font-weight: bold;
+    margin: 10px 115px;
+    
+  }
+  /*BARRA DE RUTA*/
+
+  .barra-ruta {
+    background-color: var(--petroleum);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .barra-ruta ul {
+    display: flex;
+    padding-left: 115px;
+    list-style-type: none;
+  }
+  .barra-ruta li {
+    padding: 10px;
+  }
