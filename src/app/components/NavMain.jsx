@@ -100,7 +100,7 @@ export function NavMain() {
             <Link href="#">Educación</Link>
           </li>
           <li>
-            <Link href="#">Mercado Laboral</Link>
+            <Link href="mercadolaboral">Mercado Laboral</Link>
           </li>
           <li>
             <Link href="#">Genero</Link>
