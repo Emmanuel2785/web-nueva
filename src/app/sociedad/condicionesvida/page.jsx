@@ -8,7 +8,7 @@ export default function CONDICIONES() {
         
             <div class="barra-ruta">
                 <ul>
-                    <li>POBLACIÓN</li>
+                    <li>SOCIEDAD</li>
                     <li>|</li>
                     <li>CONDICIONES DE VIDA</li>
                 </ul>
@@ -21,7 +21,7 @@ export default function CONDICIONES() {
                     <a href="#">INDICADOR CONDICIONES DE VIDA. TOTAL 6 AGLOMERADOS</a>
                     <a href="#">NECESIDADES BASICAS INSATISFECHAS</a>
                     <a href="#">INCIDENCIA DE LA POBREZA Y LA INDIGENCIA</a>
-                    <a href="#">IDISTRIBUCION DEL INGRESO</a>
+                    <a href="#">DISTRIBUCION DEL INGRESO</a>
                 </div>
             </div>
 
