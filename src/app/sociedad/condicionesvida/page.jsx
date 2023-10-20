@@ -17,7 +17,7 @@ export default function CONDICIONES() {
                 
             <div class="title-mercado-laboral">
                 <h1>Distribucion del Ingreso</h1>
-                <div class="container-botones-mercado-laboral">
+                <div class="container-botones-condiciones-vida">
                     <a href="#">INDICADOR CONDICIONES DE VIDA. TOTAL 6 AGLOMERADOS</a>
                     <a href="#">NECESIDADES BASICAS INSATISFECHAS</a>
                     <a href="#">INCIDENCIA DE LA POBREZA Y LA INDIGENCIA</a>
