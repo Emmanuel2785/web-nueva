@@ -1,5 +1,6 @@
 import { NavMain } from "../components/NavMain";
 import { Footer } from "../components/Footer";
+import Link from "next/link";
 
 export default function Comercio() {
     return (
@@ -17,12 +18,12 @@ export default function Comercio() {
             <div class="title-mercado-laboral">
                 <h1>ENCUESTA DE HOGARES Y EMPLEO PROVINCIAL</h1>
                 <div class="container-botones-mercado-laboral">
-                    <a href="#">EPH</a>
-                    <a href="#">EHE - M</a>
-                    <a href="#">EHE</a>
-                    <a href="#">INDICADOR SINTÉTICO TASAS BÁSICAS</a>
-                    <a href="#">INDICADORES DESAGREGADOS</a>
-                    <a href="#">EPH URBANO</a>
+                    <Link href="#">EPH</Link>
+                    <Link href="ehemunicipal">EHE - M</Link>
+                    <Link href="#">EHE</Link>
+                    <Link href="#">INDICADOR SINTÉTICO TASAS BÁSICAS</Link>
+                    <Link href="#">INDICADORES DESAGREGADOS</Link>
+                    <Link href="#">EPH URBANO</Link>
                 </div>
             </div>
 
