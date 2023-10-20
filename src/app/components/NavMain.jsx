@@ -43,10 +43,10 @@ export function NavMain() {
             <p>ECONOMIA</p>
           </li>
           <li>
-            <Link href="../economia/agricultura">Agricultura,Ganaderia y Pesca</Link>
+            <Link href="economia/agricultura">Agricultura,Ganaderia y Pesca</Link>
           </li>
           <li>
-            <Link href="Economia/comercio">Comercio</Link>
+            <Link href="comercio">Comercio</Link>
           </li>
           <li>
             <Link href="#">Comercio Exterior</Link>
