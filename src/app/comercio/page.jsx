@@ -1,14 +1,14 @@
-import { NavMain } from "../../components/NavMain";
-import { Footer } from "../../components/Footer";
+import { NavMain } from "../components/NavMain";
+import { Footer } from "../components/Footer";
 
-export default function Agricultura() {
+export default function Comercio() {
     return (
         <>
             <NavMain />
 
             <p>
 
-                AGRICULTURA
+                COMERCIO
             </p>
         
             <Footer />

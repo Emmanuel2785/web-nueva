@@ -46,7 +46,7 @@ export function NavMain() {
             <Link href="economia/agricultura">Agricultura,Ganaderia y Pesca</Link>
           </li>
           <li>
-            <Link href="comercio">Comercio</Link>
+            <Link href="/comercio">Comercio</Link>
           </li>
           <li>
             <Link href="#">Comercio Exterior</Link>
