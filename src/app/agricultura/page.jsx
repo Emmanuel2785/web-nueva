@@ -14,11 +14,11 @@ export default function Agricultura() {
                 </ul>
             </div>
             <div class="title-agricultura">
-                <h1>ESTADÍSTICAS AGRÍCOLAS</h1>
+                <h1>INFORMES AGROPECUARIOS</h1>
                 <div class="container-botones-agricultura">
                     <div class="fila-a">
                         <a href="#">INFORME AGROPECUARIO</a>
-                        <a href="#">ESTADÍSTICAS AGRÍCOLAS</a>
+                        <a href="agricolas">ESTADÍSTICAS AGRÍCOLAS</a>
                         <a href="#">ESTADÍSTICAS GANADERAS</a>
                     </div>
                     <div class="fila-b">
@@ -35,27 +35,7 @@ export default function Agricultura() {
                 <div class="img-tableau">
                     <img src="images/INFORMEAGROPECUARIO-PBA 2T 2023 - INFOGRAFIA.jpg.jpg" alt="tableau" width="80%"></img>
                 </div> 
-                <section class="title-mision">
-                    <p>METODOLOGÍA</p>
-                </section>
-                <div class="card-a">
-                    <p>El análisis de la Distribución del Ingreso es el estudio de cómo está repartido el producto entre los integrantes de un área específica. La manera usual de evaluar la desigualdad...</p>
-                    <div class="boton-secundario">
-                        <input type="submit" value="LEER MÁS" class="boton-secundario"></input>
-                    </div>
-                </div>
-                <section class="title-mision">
-                    <p>METODOLOGÍA</p>
-                </section>
-                <div class="card-b">
-                    <div class="container-card-b">
-                        <p>Cuadros EAHU 2016-2022</p>
-                        <div >
-                            <img src="images/xls.jpg" alt="xls"></img>
-                            <input type="submit" value="Descargar" class="boton-secundario"></input>
-                        </div>
-                    </div>
-                </div>
+               
                 <section class="title-mision">
                     <p>INFORMES AGROPECUARIOS</p>
                 </section>
