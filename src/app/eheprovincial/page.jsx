@@ -20,7 +20,7 @@ export default function Comercio() {
                 <div class="container-botones-mercado-laboral">
                     <Link href="#">EPH</Link>
                     <Link href="ehemunicipal">EHE - M</Link>
-                    <Link href="#">EHE</Link>
+                    <Link href="eheprovincial">EHE</Link>
                     <Link href="#">INDICADOR SINTÉTICO TASAS BÁSICAS</Link>
                     <Link href="#">INDICADORES DESAGREGADOS</Link>
                     <Link href="#">EPH URBANO</Link>

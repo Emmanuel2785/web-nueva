@@ -6,6 +6,7 @@ import "../styles/operativos.css";
 import "../styles/publicaciones.css";
 import "../styles/condicionesvida.css";
 import "../styles/mercadolaboral.css";
+import "../styles/agricultura.css";
 import { Inter } from "next/font/google";
 import { Navigation } from "./components/Navigation";
 import { Cabecera } from "./components/Cabecera";

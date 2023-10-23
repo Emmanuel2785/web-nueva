@@ -1,15 +1,10 @@
 import { NavMain } from "../components/NavMain";
 import { Footer } from "../components/Footer";
 
-export default function Agricultura() {
+export default function Ehem() {
     return (
         <>
             <NavMain />
-
-            <p>
-
-                EHE MUNICIPAL
-            </p>
 
             <div class="barra-ruta">
             <ul>
@@ -23,7 +18,7 @@ export default function Agricultura() {
                 <div class="container-botones-mercado-laboral">
                     <a href="#">EPH</a>
                     <a href="#">EHE - M</a>
-                    <a href="#">EHE</a>
+                    <a href="eheprovincial">EHE</a>
                     <a href="#">INDICADOR SINTÉTICO TASAS BÁSICAS</a>
                     <a href="#">INDICADORES DESAGREGADOS</a>
                     <a href="#">EPH URBANO</a>
