@@ -24,7 +24,7 @@ export function NavMain() {
             <Link href="#">DATOS ABIERTOS</Link>
           </li>
           <li>
-            <Link href="#">PRENSA</Link>
+            <Link href="prensa">PRENSA</Link>
           </li>
           <li>
             <Link href="#">CENSOS</Link>

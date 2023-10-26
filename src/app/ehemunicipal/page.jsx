@@ -90,7 +90,7 @@ export default function Ehem() {
                     <div class="container-card-b">
                         <p>Indicadores 2018</p>
                         <div >
-                            <img src="/images//images/xls.jpg" alt="xls"></img>
+                            <img src="/images/xls.jpg" alt="xls"></img>
                             <input type="submit" value="Descargar" class="boton-secundario"></input>
                         </div>
                     </div>
