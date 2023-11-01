@@ -1,0 +1,10 @@
+.tableau{
+    justify-content: center;
+    display: flex;
+    width: 1000px;
+    height: 1400px;
+}
+
+.contenedor1{
+    margin-left: 100px;
+}

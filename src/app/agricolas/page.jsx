@@ -39,12 +39,15 @@ export default function Agricolas() {
                     
                     <p>Campañas 2012/13 a 2020/2021</p>
                 </section>
-                <div class="tableau">
-                    <div class="img-tableau">
-                        <Link  href="https://public.tableau.com/views/Estad_Agro_PBA/Resumen?:embed=y&:embed_code_version=3&:loadOrderID=0&:display_count=y&:origin=viz_share_link">TABLEAU</Link>
-                      
-                        
-                    </div> 
+                
+
+                <div className="contenedor1">
+                    <section >
+                        <iframe 
+                        className="tableau"
+                        src="https://public.tableau.com/views/Estad_Agro_PBA/Resumen?:embed=y&:embed_code_version=3&:loadOrderID=0&:display_count=y&:origin=viz_share_link"
+                        ></iframe>
+                     </section>
                 </div>
                 
                 <section class="title-mision">
